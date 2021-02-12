@@ -44,6 +44,7 @@ body {
     color: white;
     margin: 0;
     font-family: movflix;
+    padding-bottom: 108px;
 }
 
 a {
@@ -192,14 +193,43 @@ main {
 }
 
 .footer {
-    border: 1px solid red;
+    
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     background: black;
+    padding: 1em 0 0;
 }
 
 .tab-list {
-    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    color: #6e6e6e;
+    padding-bottom: 1em;;
+}
+
+.tab-list a {
+    color: #6e6e6e;
+}
+
+.tab-item {
+    text-align: center;
+}
+
+.tab-item svg {
+    display: block;
+    margin: auto;
+}
+
+.tab-item path{
+    fill: #6e6e6e;
+}
+
+.tab-item:hover :is(path, span){
+    fill: white;
+    color: white
 }
