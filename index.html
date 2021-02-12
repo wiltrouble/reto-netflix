@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-50x50.png">
+  <Link rel="stylesheet" href="./css/styles.css">
   <title>Movflix</title>
   <style>
     .credits {
@@ -22,19 +23,41 @@
 </head>
 <body>
 
-  Series
-  Películas
-  Mi lista
+  <header class="header">
+    <img src="./images/logo-netflix.png" alt="Logo movflix" height="30">
+    <nav>
+      <ul class="navigation">
+        <li class="navigation-item"><a href="#">Series</a></li>
+        <li class="navigation-item"><a href="#">Movies</a></li>
+        <li class="navigation-item"><a href="#">My list</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  Surrealista
-  Distópico
-  Hábil
-  Siniestro
-  Emocionante
+  <div class="featured">
+    <video height="500" src="/images/matrix.mp4"></video>
 
-  Mi lista
-  Reproducir
-  Info
+    <div class="featured-details">
+      <ul class="tags">
+        <li class="tag">Surrealista</li>
+        <li class="tag">Distópico</li>
+        <li class="tag">Hábil</li>
+        <li class="tag">Siniestro</li>
+        <li class="tag">Emocionante</li>
+      </ul>
+
+      <div class="featured-actions">
+        <button class="button-secondary plus" >My list</button>
+        <button class="button play">Play</button>
+        <button class="button-secondary info">Info</button>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+ 
 
   Populares en Netflix
   Series japonesas anime
